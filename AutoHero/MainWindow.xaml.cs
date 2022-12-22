@@ -35,8 +35,8 @@ namespace AutoHero
         /// </summary>
         public void InitializeChromium()
         {
-            var settings = new CefSettings(); 
-            AutoHero.CEF.Utility.InitializeBrowserToGrid(browserContainer);
+            var settings = new CefSettings();
+            AutoHero.CEF.Browser.Create(browserContainer);
         }
     }
 }

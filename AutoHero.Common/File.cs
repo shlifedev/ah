@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AutoHero.Web.API.Event
+namespace AutoHero.Common
 {
-    class MouseDownEvent
+    internal class File
     {
-
     }
 }

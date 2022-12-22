@@ -12,7 +12,7 @@
 	</PropertyGroup> 
 
 	<ItemGroup>
-	  <ProjectReference Include="..\AutoHero.GUI\AutoHero.CEF.csproj" />
+	  <ProjectReference Include="..\AutoHero.GUI\AutoHero.WPF.CEF.csproj" />
 	  <ProjectReference Include="..\CV\AutoHero.CV.csproj" />
 	</ItemGroup>
 

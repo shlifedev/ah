@@ -1,9 +1,11 @@
-﻿using System.Numerics;
+﻿using System.Diagnostics;
+using System.Numerics;
 
 namespace AutoHero.InputHelper
 {
     public interface IController
     {
+        void SetProcess(Process target);
         void KeyDown(int keycode);
         void KeyUp(int keycode);
         /// <summary>

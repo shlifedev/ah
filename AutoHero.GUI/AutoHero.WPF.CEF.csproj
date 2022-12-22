@@ -9,4 +9,8 @@
     <PackageReference Include="CefSharp.Wpf.NETCore" Version="108.4.130" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AutoHero.Common\AutoHero.Common.csproj" />
+  </ItemGroup>
+
 </Project>
