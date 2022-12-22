@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<PlatformTarget>x64</PlatformTarget>
+		<AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+
+  
+
+	</PropertyGroup> 
+
+	<ItemGroup>
+	  <ProjectReference Include="..\AutoHero.GUI\AutoHero.CEF.csproj" />
+	  <ProjectReference Include="..\CV\AutoHero.CV.csproj" />
+	</ItemGroup>
+
+</Project>
