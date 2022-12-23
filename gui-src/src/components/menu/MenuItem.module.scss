@@ -1,0 +1,41 @@
+li {
+  .itemWrapper{
+    padding : 8px;
+    :hover{
+      transform: scale(1.01,1.01);
+      transition: transform 0.2s ease-out; 
+    }
+  }
+
+  :hover{
+    cursor : pointer; 
+    background-color: #3f4b5e; 
+  } 
+
+  .itemContainer {  
+    display : flex;
+    width : 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  
+}
+
+.subject{
+  display : flex; 
+  align-items: center;
+  flex-grow : 1;
+  justify-content: start;
+  column-gap: 8px;
+  img{
+    width : 32px; 
+    padding : 4px;
+  }
+  .name{ 
+  }
+
+  .subinfo{
+    
+  }
+}

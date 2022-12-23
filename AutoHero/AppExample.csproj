@@ -12,8 +12,13 @@
 	</PropertyGroup> 
 
 	<ItemGroup>
+	  <ProjectReference Include="..\AutoHero.Common\AutoHero.Common.csproj" />
+	  <ProjectReference Include="..\AutoHero.Crawler\AutoHero.Crawler.csproj" />
+	  <ProjectReference Include="..\AutoHero.Excel\AutoHero.SpreadSheets.csproj" />
 	  <ProjectReference Include="..\AutoHero.GUI\AutoHero.WPF.CEF.csproj" />
+	  <ProjectReference Include="..\AutoHero.SharpDX\AutoHero.SharpDX.csproj" />
 	  <ProjectReference Include="..\CV\AutoHero.CV.csproj" />
+	  <ProjectReference Include="..\InputHelper\AutoHero.InputHelper.csproj" />
 	</ItemGroup>
 
 </Project>

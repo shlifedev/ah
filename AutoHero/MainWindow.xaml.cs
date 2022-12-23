@@ -25,7 +25,7 @@ namespace AutoHero
     public partial class MainWindow : Window
     {
         public MainWindow()
-        {
+        { 
             InitializeComponent();
             InitializeChromium();
         }
@@ -37,6 +37,10 @@ namespace AutoHero
         {
             var settings = new CefSettings();
             AutoHero.CEF.Browser.Create(browserContainer);
+
+            WindowsInput.InputSimulator a = new WindowsInput.InputSimulator();
+            a.Keyboard.Sleep(100); 
+
         }
     }
 }

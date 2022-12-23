@@ -1,0 +1,11 @@
+.menu{
+  color : white;
+  background-color: #232A35;
+  flex-basis : 200px;
+  flex-shrink: 0;
+  height: 100vh;
+  ul{
+    display : flex;
+    flex-direction: column; 
+  } 
+}
